@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 80vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.head{
+    text-align: center;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: 10vh;
+    text-align: center;
+    bottom: 250px;
+    position: absolute;
+    top: 35vh;
+    left: 40%;
+
+}
+.order{
+    background-color: darksalmon;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.or{
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cont{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.st{
+    margin-left: 70px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    background-color:bisque;
+   
+
+}
+.st img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+    
+}
+.st img:hover{
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.st p{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color:black;
+}
+.bt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.st button{
+    border: 5px solid black;
+    color:coral;
+    background-color:black;
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+    border-radius: 20px;
+    
+    
+}
+.st button:hover{
+    border: 5px solid coral;
+    color:black;
+    background-color:coral;
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+    transition: 300ms;
+}
+.bt p{
+    border: 5px solid coral;
+    color:black;
+    background-color:coral;
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+    border-radius: 20px;
+
+}
